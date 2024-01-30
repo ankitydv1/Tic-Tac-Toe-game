@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.navbar{
+    height:50px;
+    background-color:black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    background-color: rgb(35, 59, 95);
+    text-align: center;
+    background-image: url(./images/c00aadcd1e3030b466fda12144baeab7.jpg);
+    background-size: cover;
+}
+ 
+.container{
+    height:70vh;
+    position:relative;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;  
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0,0,0,1.5);
+    font-size: 8vmin;
+    color: brown;
+    background-color: rgb(107, 206, 236);
+}
+#reset{
+    padding: 1rem;
+    color:azure;
+    font-size: 1.5rem;
+    box-shadow:0 0 1rem rgba(0,0,0,1.5);
+    background-color: black;
+    border-radius: 1rem;
+    border:none;
+}
+
+#winMsg{
+    font-size: 7vmin;
+    color: rgb(203, 203, 200);
+}
+#newBtn{
+    padding: 1rem;
+    color:azure;
+    font-size: 1rem;
+    background-color: black;
+    border-radius: 1rem;
+    border:1px;
+    border-color: antiquewhite;
+}
+.msg-container{
+    height:10vmin;
+}
+.hide{
+    display: none;
+}
